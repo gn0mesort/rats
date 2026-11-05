@@ -1,0 +1,2 @@
+subdir('img')
+subdir('snd')

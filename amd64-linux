@@ -1,0 +1,5 @@
+[built-in options]
+c_std = 'c23'
+cpp_std = 'c++23'
+cpp_args = '-fstrict-aliasing -Wstrict-aliasing=3'
+

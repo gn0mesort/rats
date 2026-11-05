@@ -1,0 +1,15 @@
+[built-in options]
+c_std = 'c18'
+cpp_std = 'c++latest'
+c_args = [ '/utf-8', '/DUNICODE', '/D_UNICODE', '/DPCG_LITTLE_ENDIAN=1', '/Zc:preprocessor' ]
+cpp_args = [ '/utf-8', '/DUNICODE', '/D_UNICODE', '/DPCG_LITTLE_ENDIAN=1', '/Zc:preprocessor' ]
+c_link_args = [ '/Entry:mainCRTStartup' ]
+cpp_link_args = [ '/Entry:mainCRTStartup' ]
+b_vscrt = 'static_from_buildtype'
+
+[properties]
+deppath = 'C:\Development'
+includepath = 'C:\Development\Include'
+boost_root = 'C:\Development\boost'
+boost_includedir = 'C:\Development\boost'
+boost_librarydir = 'C:\Development\boost\stage\lib'

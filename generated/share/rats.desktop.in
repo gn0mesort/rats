@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rats!
+Comment=Rats! v{version}
+Categories=Game
+TryExec={binpath}
+Exec={execpath}
+Terminal=false

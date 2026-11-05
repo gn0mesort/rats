@@ -1,0 +1,49 @@
+/// @cond INTERNAL
+/**
+ * @file config.hpp
+ * @brief Static Compile-Time Configuration
+ * @author Alexander Rothman <[gnomesort@megate.ch](mailto:gnomesort@megate.ch)>
+ * @date 2025
+ */
+#ifndef CONFIG_HPP
+#define CONFIG_HPP
+
+#mesondefine CONFIG_MESON_PROJECT_NAME
+#mesondefine CONFIG_MESON_PROJECT_VERSION_MAJOR
+#mesondefine CONFIG_MESON_PROJECT_VERSION_MINOR
+#mesondefine CONFIG_MESON_PROJECT_VERSION_PATCH
+
+#mesondefine CONFIG_MESON_CXX_COMPILER_ID
+#mesondefine CONFIG_MESON_CXX_COMPILER_GCC
+#mesondefine CONFIG_MESON_CXX_COMPILER_CLANG
+#mesondefine CONFIG_MESON_CXX_COMPILER_CLANG_CL
+#mesondefine CONFIG_MESON_CXX_COMPILER_MSVC
+#mesondefine CONFIG_MESON_CXX_COMPILER_UNKNOWN
+
+#mesondefine CONFIG_MESON_C_COMPILER_ID
+#mesondefine CONFIG_MESON_C_COMPILER_GCC
+#mesondefine CONFIG_MESON_C_COMPILER_CLANG
+#mesondefine CONFIG_MESON_C_COMPILER_CLANG_CL
+#mesondefine CONFIG_MESON_C_COMPILER_MSVC
+#mesondefine CONFIG_MESON_C_COMPILER_UNKNOWN
+
+#mesondefine CONFIG_MESON_SYSTEM_ID
+#mesondefine CONFIG_MESON_SYSTEM_LINUX
+#mesondefine CONFIG_MESON_SYSTEM_WINDOWS
+#mesondefine CONFIG_MESON_SYSTEM_DARWIN
+#mesondefine CONFIG_MESON_SYSTEM_UNKNOWN
+
+#mesondefine CONFIG_MESON_CPU_FAMILY_ID
+#mesondefine CONFIG_MESON_CPU_FAMILY_X86_64
+#mesondefine CONFIG_MESON_CPU_FAMILY_X86
+#mesondefine CONFIG_MESON_CPU_FAMILY_ARM
+#mesondefine CONFIG_MESON_CPU_FAMILY_AARCH64
+#mesondefine CONFIG_MESON_CPU_FAMILY_UNKNOWN
+
+#mesondefine CONFIG_MESON_SEARCH_PATHS
+#mesondefine CONFIG_MESON_SEARCH_PATH_COUNT
+
+#include "build.hpp"
+
+#endif
+/// @endcond

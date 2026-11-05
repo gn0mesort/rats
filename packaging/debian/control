@@ -1,0 +1,11 @@
+Source: megatech-rats
+Maintainer: Alexander Rothman <gnomesort@megate.ch>
+Section: games
+Priority: optional
+Standards-Version: 4.7.0
+
+Package: megatech-rats
+Architecture: amd64
+Depends: ${shlibs:Depends}, dash (>= 0.5.0)
+Description: Retro-style first-person maze game
+ A first-person maze game featuring exploration and treasure.

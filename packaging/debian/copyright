@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rats
+Upstream-Contact: gnomesort@megate.ch
+Source: https://github.com/gn0mesort/rats
+Copyright: 2026 Alexander Rothman
+License: AGPL-3.0-or-later and Apache-2.0 and BSL-1.0
+
+Files: *
+Copyright: 2026 Alexander Rothman
+License: AGPL-3.0-or-later
+
+License: AGPL-3.0-or-later
+ See /usr/share/common-licenses/AGPL-3
+
+License: Apache-2.0
+ See /usr/share/common-licenses/Apache-2.0
+
+License: BSL-1.0
+ See /usr/share/common-licenses/BSL-1.0
