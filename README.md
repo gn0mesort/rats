@@ -47,7 +47,7 @@ from your center.
 | ` | Toggle Developer Information |
 | ESC (Escape) | Quit |
 | Alt+Enter | Toggle Fullscreen |
-| Left Control | Release mouse pointer |
+| Right Control | Release mouse pointer |
 
 ## Mouse
 
