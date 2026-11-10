@@ -23,6 +23,61 @@ visualization.
 
 ![Looking across a large room into the darkness](img/ss_004.webp)
 
+## Controls
+
+*Rats!* has a grid based world with slightly different rules for movement and attacking. In *Rats!*, the player and
+enemies can move along any of the cardinal direction (north, south, east, and west). However, they can **attack** all
+eight adjacent grid cells! That means you can attack an enemy (or be attacked by one) on a diagonal, but you cannot
+move along the diagonal.
+
+Mathematically, the rule is that you can attack any cell within `sqrt(2)` units of your center but only move `1` unit
+from your center.
+
+## Keyboard
+
+| Key | Action |
+| - | - |
+| Q | Rotate Left |
+| E | Rotate Right |
+| W | Walk Forward |
+| A | Strafe Left |
+| S | Strafe Right |
+| D | Walk Backward |
+| Tab | Toggle Automap |
+| ` | Toggle Developer Information |
+| ESC (Escape) | Quit |
+| Alt+Enter | Toggle Fullscreen |
+| Left Control | Release mouse pointer |
+
+## Mouse
+
+### Motion
+
+Left and right mouse motion rotate the camera just like the Q and E keys (mouse look). There's no vertical camera
+motion (Y-shearing makes me dizzy).
+
+### Buttons
+
+| Button | Action |
+| - | - |
+| Left | Attack |
+
+## Gameplay
+
+The goal in *Rats!* (if there is any goal at the moment) is to maximize your total score seen in the top left of the
+game window. You can increase your score by killing enemies (3 points each), collecting coins (10 points each), and
+by collecting rubies (100 points each).
+
+Enemies start the game unaware of the player. However, bumping into an enemy, attacking it, or walking through its
+field of view will alert the enemy! Once an enemy is alert it will chase you and try to kill you! You can fight back
+by clicking on the enemy.
+
+You start the game at 100% health. If you get hurt, you can pick up food to heal yourself. Cheese heals 5% of your
+total health. Pie heals 15% of your total health. Even at full health, you can keep eating until you reach a maximum
+of 200% of your total health! If your health drops to 0%, it's game over.
+
+Each game map is generated pseudorandomly when you start the application.
+
 ## Dependencies
 
 *Rats!* requires a compatible C++ compiler and toolchain. Both GCC and Microsoft Visual C++ (MSVC) are supported and
